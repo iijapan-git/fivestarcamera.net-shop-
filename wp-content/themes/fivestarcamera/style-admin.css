@@ -1,0 +1,53 @@
+
+/* acf textarea */
+.acf_postbox .field .textarea {
+	min-height: inherit;
+}
+
+/* ---- 商品登録 ---- */
+
+#woocommerce-product-data .hndle .type_box {display: none;}
+
+/*general member price*/
+#general_product_data ._sale_price_field .description {display: none;}
+#general_product_data .festi-sale-price-block {display: none;}
+
+/*general point reward*/
+#general_product_data ._wc_points_earned_field {display: none;}
+#general_product_data ._wc_points_max_discount_field {display: none;}
+
+/*inventory*/
+#inventory_product_data ._sku_field {display: none;}
+#inventory_product_data ._backorders_field {display: none;}
+
+/*tab*/
+#woocommerce-product-data .product_data_tabs .attribute_tab {display: none;}
+#woocommerce-product-data .product_data_tabs .advanced_tab {display: none;}
+#woocommerce-product-data .product_data_tabs .festi-user-role-prices-product-tab {display: none;}
+
+
+/* maker */
+#maker-tabs {display: none;}
+#maker-adder {display: none;}
+#maker-all {
+	max-height: inherit;
+}
+
+/* product_cat */
+#product_cat-tabs {display: none;}
+#product_cat-adder {display: none;}
+#product_cat-all {
+	max-height: inherit;
+}
+
+
+
+/* ---- 受注一覧 ---- */
+
+.type-shop_order .column-order_items .show_order_items {
+	display: none;
+}
+
+.type-shop_order .column-order_items .order_items {
+	display: table !important;
+}

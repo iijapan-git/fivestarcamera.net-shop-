@@ -1,0 +1,7 @@
+
+#wpbody-content .update-nag {
+	display: none;
+}
+#wysija-app .notice-msg.updated {
+	display: none;
+}

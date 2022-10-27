@@ -1,0 +1,154 @@
+@charset "utf-8";
+
+/* ---------- wordpress ------------------------------------ */
+/* wp-pagenavi */
+.wp-pagenavi {
+	margin-bottom: 50px;
+	padding-top: 30px;
+	text-align: center;
+	font-size: 0;
+}
+.wp-pagenavi a,
+.wp-pagenavi span {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	line-height: 32px;
+	background-color: #f0f0f0;
+	border: 1px solid #f0f0f0;
+	font-size: 14px;
+	text-decoration: none;
+	margin-left: 10px;
+	transition: all 0.2s ease 0s;
+}
+.wp-pagenavi span.pages,
+.wp-pagenavi span.current,
+.wp-pagenavi a:hover {
+	color: #fff;
+	border-color: #c73538;
+	background-color: #c73538;
+}
+.wp-pagenavi span.pages {
+	width: inherit;
+	padding: 0 16px 0 5px;
+	margin-left: 0;
+}
+
+
+/* mail_stop */
+.mail_stop {}
+.mail_stop a.button {
+	color: #212121;
+	padding: 15px 18px;
+	display: block;
+	background-color: #eee;
+	text-decoration: none;
+	-webkit-transition: .2s;
+	transition: .2s;
+	transition-property: background-color;
+	transition-timing-function: ease-out;
+}
+.mail_stop a.button:hover {
+	color: #fff;
+	background-color: #212121;
+}
+
+
+/* postbody */
+.postbody p {
+	margin-bottom: 1em;
+}
+.postbody img {
+	margin-top: 1em;
+	margin-bottom: 1.5em;
+}
+.postbody dl {
+	margin-bottom: 1em;
+}
+.postbody dl dt {
+	float: left;
+	font-weight: bold;
+	padding: 0.8em 1em 0.8em 0;
+	min-width: 4em;
+	color: #202020;
+	line-height: 130%;
+}
+.postbody dl dd {
+	padding: 0.8em 1em;
+	line-height: 130%;
+}
+.postbody .alignleft {
+	float: left;
+	margin-right: 1em;
+}
+.postbody .alignright {
+	float: right;
+	margin-left: 1em;
+}
+.postbody .aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+@media (max-width: 768px) {
+
+	/* ---------- wordpress ------------------------------------ */
+
+	/* postbody */
+	.postbody {}
+	.postbody p {
+		margin-bottom: 0.6em;
+	}
+	.postbody img {
+		text-align: center;
+		margin-top: 0.6em;
+		margin-bottom: 1.2em;
+		max-width: 100%;
+		height: auto;
+	}
+	.postbody dl {
+		margin-bottom: 0.6em;
+	}
+	.postbody dl dt {
+		padding: 0.6em 0.6em 0.6em 0;
+		min-width: 4em;
+	}
+	.postbody dl dd {
+		padding: 0.6em 0.6em;
+	}
+	.postbody .alignleft {
+		float: left;
+		margin-right: 0.6em;
+	}
+	.postbody .alignright {
+		float: right;
+		margin-left: 0.6em;
+	}
+	.postbody .aligncenter {
+		clear: both;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+
+	/* wp-pagenavi */
+	.wp-pagenavi {
+		padding-top: 15px;
+		margin-bottom: 0;
+	}
+	.wp-pagenavi a,
+	.wp-pagenavi span {
+		width: 30px;
+		height: 30px;
+		line-height: 32px;
+		font-size: 12px;
+		margin-left: 6px;
+	}
+	.wp-pagenavi span.pages {
+		padding: 0 8px 0 2px;
+	}
+}

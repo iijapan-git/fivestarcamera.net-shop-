@@ -1,0 +1,394 @@
+
+
+/* ----- table ----- */
+table {	width:100%; margin-bottom: 60px;}
+table .color { background-color:#FAFAFA;}
+table th,
+table td {
+	padding: 20px;
+}
+table th {
+	width:20%;
+	border: 1px solid #E0E0E0;
+	font-size: 88%;
+	font-weight: bold;
+	color: #EB1922;
+	border-left: 1px solid #E0E0E0;
+}
+table td {
+	width:80%;	
+	border-top: 1px solid #E0E0E0;
+	border-bottom: 1px solid #E0E0E0;
+	border-right: 1px solid #E0E0E0;
+}
+
+
+
+
+/* ---------- company ---------------------------------------- */
+.comp-box {
+	clear: both;
+	overflow: hidden;
+	width: 900px;
+	margin: 0 auto 140px;}
+
+/* ----- message ----- */
+.mess p {
+	margin-bottom: 25px;
+}
+.mess .name {
+	font-weight: bold;
+	width: 430px;
+	padding-bottom: 35px;
+	border-bottom: 1px solid #BDBDBD;
+	margin-bottom: 55px;
+}
+.mess .mess-ttl { margin-bottom:25px;}
+.mess .photo.top {
+	float:right;
+	margin-bottom: 55px;
+	margin-left: 40px;
+}
+.mess .photo.last {
+	margin-right:15px;
+	float:none;
+}
+.mess .mess-text {}
+.mess .mess-under {	width: 430px;	float:right;}
+.mess .mess-under span {
+	font-weight: bold;
+	width: 430px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #BDBDBD;
+}
+.mess .mess-under p { width:440px; float:right;}
+
+/* ----- outline ----- */
+.comp	.comp-ttl {
+	text-align: center;
+	font-size: 16px;
+	color: #EB1922;
+	margin-bottom: 25px;
+}
+.comp	.comp-ttl:after {
+	content: " ";
+	display: block;
+	border-bottom: 1px solid #EB1922;
+	padding-bottom: 10px;
+	width: 16px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.outl .hist-table {}
+.outl .hist-table th { color:#000;	border-right-style: none;}
+.outl .hist-table th { color:#000;}
+
+/* ----- vision ----- */
+.visi .visi-head { margin-bottom:50px;}
+.visi .visi-text { text-align:center; margin-bottom:20px;}
+
+.visi .support {
+	text-align: center;
+}
+.visi .support span {
+	font-size: 24px;
+	color: #EB1B24;
+	margin-bottom: -10px;
+	display:block;
+}
+.visi .functions {
+	margin-top:50px;
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+.visi .functions .func-block {
+	float: left;
+	text-align: center;
+	width: 280px;
+	margin-right: 30px;
+	margin-bottom: 40px;
+}
+.visi .functions .func-block.last {	margin-right: 0px;}
+
+.visi .functions .func-block .img { margin-bottom:15px;}
+.visi .functions .func-block .ttl {
+	font-weight: bold;
+	color: #EB151E;
+	text-align: center;
+	margin-bottom:10px;
+	font-size: 88%;
+}
+.visi .functions .func-block p {
+	text-align: left;
+}
+.visi .guideline dl {
+	text-align: center;
+	width: 500px;
+	border: 1px solid #E0E0E0;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 40px;
+	padding-bottom: 10px;
+}
+.visi .guideline dl dt {
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 13px;
+}
+.visi .guideline dl dd {
+	margin-bottom: 30px;
+}
+
+/* ---------- RECRUIT ---------------------------------------- */
+
+/* ----- business ----- */
+.recr-box{
+	clear: both;
+	overflow: hidden;
+	width: 900px;
+	margin: 0 auto 54px;}
+.recr .bsns-block {
+	width: 430px;
+	margin-bottom: 65px;
+	border-bottom: 1px solid #BDBDBD;
+	float:left;
+	min-height:365px;
+}
+.recr .bsns-block.first { margin-right: 40px;}
+.recr .bsns-block.under { margin-bottom: 0px;}
+
+.recr .bsns-block {}
+.recr .bsns-block .photo {
+	margin-bottom:20px;}
+.recr .bsns-block .job-ttl {
+	font-size: 94%;
+	color: #EB1B24;
+	font-weight: bold;
+	line-height: 200%;
+}
+.recr .bsns-block p {}
+
+/* ----- guideline ----- */
+.recr.guid ul.list {padding: 0px 0 0px;}
+
+/* ---------- contact ---------------------------------------- */
+.cont .subttl {
+    margin-top: 78px;
+    margin-bottom: 46px;
+}
+.cont .cont-box {
+	clear: both;
+	overflow: hidden;
+	width: 900px;
+	margin: 0 auto 54px;}
+.cont .cont-box p {
+	text-align: center;
+	margin-bottom:25px;
+}
+.cont .cont-box p.cont-rcrt {
+	border: 1px solid #E0E0E0;
+	width: 440px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	margin-bottom:130px;
+}
+.cont .cont-box .tel { width:440px; margin:auto;}
+.cont .cont-box .tel th {
+	font-size: 14px;
+	color:#000;
+	border-right-style: none;
+	width: 35%;
+	vertical-align: middle;
+	font-weight: normal;
+	padding-left:30px;
+}
+.cont .cont-box .tel td {
+	font-size: 26px;
+	color: #EB1B24;
+	width: 65%;
+	font-family: 'Roboto Condensed';
+	letter-spacing: 0.1em;	
+}
+.cont .tel th,
+.cont .tel td { line-height: 150%;}
+
+
+
+
+@media (max-width: 768px) {
+
+/* ----- table ----- */
+table {	width:100%; margin-bottom: 40px;}
+table th,
+table td {
+	padding: 11px;
+}
+table th {
+	width:33%;
+}
+table td {
+	width:67%;	
+}
+table ul li {
+}
+
+
+
+
+
+/* ---------- company ---------------------------------------- */
+.comp-box {
+	width: auto;
+	margin: 0 auto 15%;}
+.comp .subttl {margin: 8% 0 8%;}
+
+.comp .comp-ttl {
+	font-size: 13px;
+	margin-bottom: 15px;}
+/* ----- message ----- */
+.mess p {
+	margin-bottom: 25px;
+}
+.mess .name {
+	width: auto;
+	padding-bottom: 25px;
+	margin-bottom: 25px;}
+.mess .mess-ttl {margin-bottom: 15px;}
+.mess .mess-ttl img {
+	max-width: 180px;
+  height: auto;
+}
+.mess .photo.top {
+	float:none;
+	margin-bottom: 30px;
+	margin: auto 30;
+	text-align: center;
+	margin-left: 0px;
+}
+.mess .photo img {
+	max-width: 100%;
+	height: auto;}
+
+.mess .photo.last {
+	margin-right: 0px;
+	float: none;
+	text-align: center;
+}
+.mess .photo.last img {}
+
+.mess .mess-under {	width: auto;	float:none;}
+.mess .mess-under span {
+	width: auto;
+	padding-bottom: 30px;
+}
+.mess .mess-under p { width:auto; float:none;}
+
+/* ----- vision ----- */
+.visi .visi-head { margin-bottom:20px;}
+.visi .visi-head img { width:100%; height:auto;}
+.visi .visi-text img {
+	height: auto;
+	width: 100%;
+	max-width: 230px;}
+.visi .support span {
+	font-size: 14px;
+	margin-bottom: -10px;
+}
+
+.visi .functions {
+	margin-top:50px;
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+.visi .functions .func-block {
+	float: none;
+	text-align: center;
+	width: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	margin-left: auto;
+}
+.visi .functions .func-block .ttl {
+	font-size: 75%;}
+
+.visi .functions .func-block.last {	margin-right: 0px;}
+.visi .functions .func-block .img { margin-bottom:15px;}
+.visi .functions .func-block .img img { max-width:45%; height:auto;}
+.visi .guideline dl {
+	width: auto;
+}
+
+
+/* ---------- RECRUIT ---------------------------------------- */
+
+.recr-box {
+	width: auto;
+	margin: 0 auto 15%;}
+
+/* ----- business ----- */
+.recr.busi .subttl {
+    margin: 8% 0% 5%;
+}
+.recr .bsns-block {
+	width: auto;
+	max-width: 430px;
+	margin: 0 auto 40px auto;
+	border-bottom: 1px solid #BDBDBD;
+	float:none;
+	min-height: 0px;
+}
+.recr .bsns-block.first {margin: 0 auto 40px auto;}
+
+.recr .bsns-block .photo {margin-bottom: 10px;}
+.recr .bsns-block .photo img {
+	width:100%;
+	height:auto;}
+.recr #contents .bsns-block .job-ttl {
+	font-size: 12px;
+}
+.recr .bsns-block p {margin-bottom:25px;}
+
+
+
+/* ----- guideline ----- */
+.recr.guid .subttl {
+    margin: 8% 0% 5%;
+}
+
+
+/* ---------- contact ---------------------------------------- */
+.cont .subttl {
+    margin-top: 78px;
+    margin-bottom: 46px;
+}
+.cont .cont-box {
+	width: auto;}
+.cont .cont-box p {
+	text-align: center;
+	margin-bottom:25px;
+}
+.cont .cont-box p.cont-rcrt {
+	width: auto;
+	margin-bottom:0px;
+	padding-left:2px;
+	padding-right:2px;
+}
+.cont .cont-box .tel { width:auto; margin:auto;}
+.cont .cont-box .tel th {
+	font-size: 14px;
+	width: 35%;
+	padding-left:30px;
+}
+.cont #contents .cont-box .tel td {
+	font-size: 16px;
+	width: 45%;
+	color: #EB1B24;
+}
+.cont .tel th,
+.cont .tel td { line-height: 150%;}
+
+
+
+}
